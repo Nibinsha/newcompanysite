@@ -1,0 +1,382 @@
+html, body {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.banner {
+  background: url(../images/banner.jpeg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.opaque-navbar {
+  background-color: white;
+  color: white;
+  border-bottom: 0px;
+  transition: background-color .5s ease 0s;
+}
+
+/*===========navbar-resize===========*/
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand img {
+  padding: 5px;
+  max-height: 85px;
+  transition: 0.5s ease 0s;
+}
+
+.shrink {
+  height: 30px;
+  transition: 0.5s ease 0s;
+}
+
+.shrink .navbar-right {
+  padding-top: 0px;
+  transition: 0.5s ease 0s;
+}
+
+.shrink .navbar-brand img {
+  max-height: 50px;
+  transition: 0.5s ease 0s;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
+.white{
+  color:white;
+}
+.fbclr{
+  color:#3B5998;
+}
+.gp{
+  color:#d34836;
+}
+.twtr{
+  color:#00aced;
+}
+.igram{
+  color:#fb3958;
+}
+.linkdin{
+  color: #0077B5;
+}
+.bg-white {
+  background-color: white;
+}
+
+.banner-h {
+  padding: 17em 0 0;
+  text-align: center;
+}
+
+.banner-h h2 {
+  font-size: 4em;
+  font-weight: 300;
+  margin: 0 0 .2em;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.banner-h p {
+  font-size: 16px;
+  width: 50%;
+  margin: 1.5em auto 0;
+  line-height: 1.8em;
+}
+
+.dir-intro {
+  padding: 17em 0 0;
+  text-align: center;
+}
+
+.dir-intro p {
+  font-size: 17px;
+  color: black;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.dir-intro p a {
+  background: url(../images/up-arrow.png) no-repeat center;
+  display: block;
+  height: 25px;
+}
+
+/* about  */
+
+.about-head h2 {
+  font-size: 3.3em;
+  letter-spacing: 2px;
+  text-align: center;
+  color: darkgray;
+  text-transform: uppercase;
+  margin-bottom: 1.2em;
+  font-weight: 800;
+}
+
+.about h4 {
+  font-size: 2em;
+  margin: 1em 0 0.5em 0;
+  color: gray;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+/*   about    */
+
+
+#welcome {
+  background-color: white;
+
+}
+
+.about-head {
+  text-align: left;
+}
+
+.about-title {
+  font-size: 3em;
+  letter-spacing: 1px;
+  position: relative;
+  font-weight: 700;
+  text-align: center;
+}
+
+h3.about-title.heading.two {
+  color: black;
+}
+
+.about-img img{
+  max-width:100%;
+}
+..about-title span {
+  color: #545151;
+  font-weight: 200;
+}
+
+h3.about-title.heading.two span {
+  color: black;
+}
+
+.about-title:after {
+  border-top: 2px solid #ffb500;
+  display: block;
+  width: 81px;
+  content: "";
+  margin: 8px auto 0;
+}
+
+.about-inner {
+  margin-top: 4em;
+}
+/*-- //about --*/
+
+/* portfolio  */
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card {
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-clip: padding-box;
+  height: 500px;
+}
+
+.card img{
+  max-width: 100%;
+}
+
+/* core tech */
+.core img{
+  max-width: 50%;
+  height: 160px;
+}
+.pop img{
+  max-width: 1100px;
+  position: center;
+  height: 600px;
+}
+
+/* //portfolio  */
+
+
+
+/*------------------------------------------------------*/
+
+/* RESPONSIVE
+/*------------------------------------------------------*/
+
+@media (max-width: 991px) {
+  .about-title {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .banner-h h2 {
+    font-size: 3.5em;
+    font-weight: 250;
+    margin: 0 0 .2em;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+  }
+
+  .banner-h p {
+    font-size: 14px;
+    width: 50%;
+    margin: 1.5em auto 0;
+    line-height: 1.6em;
+  }
+}
+/*---------- MEDIA 480px ----------*/
+
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .banner-h h2 {
+    font-size: 2.5em;
+    font-weight: 200;
+    margin: 0 0 .2em;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
+  .brand{
+    font-size: 0.8em;
+  }
+  .banner-h p {
+    font-size: 12px;
+    width: 50%;
+    margin: 1.5em auto 0;
+    line-height: 1.3em;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 22px;
+    line-height: 25px;
+    margin-bottom: 5px;
+  }
+  .nav-logo {
+    height: 33px;
+  }
+  .navbar-toggler {
+    height: 25px;
+    padding: 0;
+  }
+.brand{
+  font-size: 0.6em;
+}
+  .banner-h h2 {
+    font-size: 2.0em;
+    font-weight: 150;
+    margin: 0 0 .2em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+
+  .banner-h p {
+    font-size: 16px;
+    width: 50%;
+    margin: 1.2em auto 0;
+    line-height: 1.0em;
+  }
+  .about-sub h4{
+    font-size: 18px;
+  }
+  .about-sub p{
+    font-size: 15px;
+  }
+  .services h4{
+    font-size:1.5em;
+  }
+  .services p{
+    font-size:14px;
+  }
+  .card-block h4{
+  font-size: 18px;
+  }
+  .card-block p{
+  font-size: 15px;
+  }
+
+}
+
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+
+
+
+
+
